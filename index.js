@@ -16,10 +16,6 @@ app.use(
 )
 
 
-
-
-
-
 app.get('/cidade/:cidade', async (req, res) => {
 
 
@@ -166,6 +162,6 @@ function getweatherinfo(cidade) {
 
 
 
-app.listen(port, () => {
+app.listen(process.env.PORT || 5000, () => {
     console.log(`Magic happens on ${port}!`)
 });
