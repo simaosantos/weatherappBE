@@ -1,0 +1,26 @@
+{
+  "engines": {
+    "node": "14.15.4"
+  },
+  "name": "weatherbe",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "https": "^1.0.0",
+    "log-to-file": "^2.0.2",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "eslint": "^7.19.0"
+  }
+}
