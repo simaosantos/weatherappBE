@@ -6,4 +6,4 @@
 3. Go to your file project
 4. Then: ```npm install```
 5. And: ```npm start```
-6. Navigate to [localhost:4200](localhost:4200)
+6. Navigate to [localhost:8000](localhost:8000)
